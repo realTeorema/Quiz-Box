@@ -20,103 +20,144 @@
           </ul>
         </nav>
         <address class="contacts">
-          <a href="tel:+88007003030" class="contacts_phone">8 800 700 30 30</a>
-          <div class="contacts__workhours">
-            <a href="/" class="contacts__link">График работы</a>
-            <div class="contacts__popup">
-              <p class="popup__text">пн-вс: 09:00 - 20:00</p>
-              <p class="popup__text">Обед: 14:00 - 14:30</p>
+          <a href="tel:+88007003030" class="contacts__phone">8 800 700 30 30</a>
+          <div class="contacts__schedule-wrap">
+            <a href="/" class="contacts__schedule-link">График работы</a>
+            <div class="contacts__schedule">
+              <p class="contacts__schedule-workhours">пн-вс: 09:00 - 20:00</p>
+              <p class="contacts__schedule-break">Обед: 14:00 - 14:30</p>
             </div>
           </div>
         </address>
       </header>
       <main class="main-content">
-        <section class="section welcome-section">
+        <section class="welcome-section section">
           <h1 class="welcome-section__title">
             Интеллектуальный<br />вечер для шумной<br />компании
           </h1>
           <p class="welcome-section__description">Игры на любой вкус</p>
-          <a href="#" class="btn active-btn">Подробнее</a>
+          <a href="games.html" class="welcome-section__btn btn btn_active">Подробнее</a>
         </section>
 
-        <section class="section news-section">
-          <h2 class="section__title">Новинки недели</h2>
-          <div class="news-section__card">
-            <img src="" alt="Music" class="card__img" />
-            <div class="card__text">
-              <h3 class="card__title">Музыкальная игра</h3>
-              <div class="duration">
-                <img src="" alt="Clock icon" class="card__details-icon" />
-                <p class="card__details-text">90 минут</p>
-                <img src="" alt="Questions icon" class="card__details-icon" />
-                <p class="card__details-text">70 вопросов</p>
-              </div>
-              <p class="card__description">
-                Равным образом постоянное обеспечение нашей деятельности
-                позволяет оценить значение систем массового участия.
-              </p>
-              <a href="#" class="btn card-btn">Смотреть</a>
+        <section class="quizes">
+            <div class="quizes__title-wrap">
+                <h2 class="section-title quizes__title">Новинки недели</h2>
+                <img src="" alt="New" class="quizes__icon icon">
             </div>
-          </div>
-          <div class="news-section__card">
-            <img src="" alt="Назад в 90-е" class="card__img" />
-            <div class="card__text">
-              <h3 class="card__title">Назад в 90-е</h3>
-              <div class="duration">
-                <img src="" alt="Clock icon" class="card__details-icon" />
-                <p class="card__details-text">90 минут</p>
-                <img src="" alt="Questions icon" class="card__details-icon" />
-                <p class="card__details-text">70 вопросов</p>
-              </div>
-              <p class="card__description">
-                Равным образом постоянное обеспечение нашей деятельности
-                позволяет оценить значение систем массового участия.
-              </p>
-              <a href="#" class="btn card-btn active-btn">Смотреть</a>
-            </div>
-          </div>
-          <div class="news-section__card">
-            <img src="" alt="QUIZIT" class="card__img" />
-            <div class="card__text">
-              <h3 class="card__title">IT-викторина</h3>
-              <div class="duration">
-                <img src="" alt="Clock icon" class="card__details-icon" />
-                <p class="card__details-text">90 минут</p>
-                <img src="" alt="Questions icon" class="card__details-icon" />
-                <p class="card__details-text">70 вопросов</p>
-              </div>
-              <p class="card__description">
-                Равным образом постоянное обеспечение нашей деятельности
-                позволяет оценить значение систем массового участия.
-              </p>
-              <a href="#" class="btn card-btn">Смотреть</a>
-            </div>
-          </div>
+
+            <ul class="quizes__list">
+                <li class="quizes__item quiz">
+                    <div class="quiz__image_wrap">
+                        <img src="" alt="Music" class="quiz__image">
+                    </div>
+                    <!-- ??? Делала по аналогии -->
+                    <div class="quiz__content"> 
+                        <h3 class="quiz__title">Музыкальная игра</h3>
+                    </div>
+                    <ul class="quiz__details details__list">
+                        <li class="details__item">
+                            <img src="" alt="Clock icon" class="details__icon icon" />
+                            <div class="details__minutes">90 минут</div>
+                        </li>
+                        <li class="details__item">
+                            <img src="" alt="Questions icon" class="details__icon icon" />
+                            <div class="details__questions">70 вопросов</div>
+                        </li>
+                    </ul>
+                    <div class="quiz__desc">
+                        Равным образом постоянное обеспечение нашей деятельности
+                        позволяет оценить значение систем массового участия.
+                    </div>
+                    <a href="#" class="quiz__btn btn">Смотреть</a>
+                </li>
+                <li class="quizes__item quiz">
+                    <div class="quiz__image_wrap">
+                        <img src="" alt="Назад в 90-е" class="quiz__image">
+                    </div>
+                    <div class="quiz__content"> 
+                        <h3 class="quiz__title">Назад в 90-е</h3>
+                    </div>
+                    <ul class="quiz__details details__list">
+                        <li class="details__item">
+                            <img src="" alt="Clock icon" class="details__icon icon" />
+                            <div class="details__minutes">90 минут</div>
+                        </li>
+                        <li class="details__item">
+                            <img src="" alt="Questions icon" class="details__icon icon" />
+                            <div class="details__questions">70 вопросов</div>
+                        </li>
+                    </ul>
+                    <div class="quiz__desc">
+                        Равным образом постоянное обеспечение нашей деятельности
+                        позволяет оценить значение систем массового участия.
+                    </div>
+                    <a href="#" class="quiz__btn btn btn_active">Смотреть</a>
+                </li>
+                <li class="quizes__item quiz">
+                    <div class="quiz__image_wrap">
+                        <img src="" alt="QUIZIT" class="quiz__image">
+                    </div>
+                    <div class="quiz__content"> 
+                        <h3 class="quiz__title">IT-викторина</h3>
+                    </div>
+                    <ul class="quiz__details details__list">
+                        <li class="details__item">
+                            <img src="" alt="Clock icon" class="details__icon icon" />
+                            <div class="details__minutes">90 минут</div>
+                        </li>
+                        <li class="details__item">
+                            <img src="" alt="Questions icon" class="details__icon icon" />
+                            <div class="details__questions">70 вопросов</div>
+                        </li>
+                    </ul>
+                    <div class="quiz__desc">
+                        Равным образом постоянное обеспечение нашей деятельности
+                        позволяет оценить значение систем массового участия.
+                    </div>
+                    <a href="#" class="quiz__btn btn">Смотреть</a>
+                </li>
+            </ul>
         </section>
 
-        <section class="section past-games-section">
-          <h2 class="section__title">Прошедшие игры</h2>
-          <div class="past-game-section__slider">
-            <div class="slide">
-              <p class="slide__date">1 января</p>
-              <h3 class="card__title">Новогодний квиз</h3>
-              <p class="card__description">
-                Успевайте забронировать даты. Пока еще есть места на декабрь.
-                Удачи и всех благ!
-              </p>
+
+        <section class="past-games">
+            <div class="past-games__title-wrap"> 
+                <h2 class="section-title past-games__title">Прошедшие игры</h2>
             </div>
-            <div class="slide">
-              <p class="slide__date">8 марта</p>
-              <h3 class="card__title">Весенняя игра</h3>
-              <p class="card__description">
-                Успевайте забронировать даты. Пока еще есть места на март. Удачи
-                и всех благ!
-              </p>
-            </div>
+           
+            <ul class="past-games__list">
+                <li class="past-games__item past-game">
+                    <div class="past-game__photo_wrap">
+                        <img src="" alt="Фото Новогоднее" class="past-game__photo">
+                    </div>
+                    <div class="past-game__content">
+                        <div class="past-game__date">1 января</div>
+                        <h3 class="past-game__title">Новогодний квиз</h3>
+                        <div class="past-game__description">
+                            Успевайте забронировать даты. Пока еще есть места на декабрь.
+                            Удачи и всех благ!
+                        </div>
+                    </div>
+                </li>
+                <li class="past-games__item past-game">
+                    <div class="past-game__photo_wrap">
+                        <img src="" alt="Фото 8 Марта" class="past-game__photo">
+                    </div>
+                    <div class="past-game__content">
+                        <div class="past-game__date">8 марта</div>
+                        <h3 class="past-game__title">Весенняя игра</h3>
+                        <div class="past-game__description">
+                            Успевайте забронировать даты. Пока еще есть места на март.
+                            Удачи и всех благ!
+                        </div>
+                    </div>
+                </li>
+            </ul>
+                  
             <div class="paginator">
               <div class="paginator__display">Страница 1 из 7</div>
               <ul class="paginator__list">
-                <li class="paginator__item">1</li>
+                <li class="paginator__item paginator__item_active">1</li>
                 <li class="paginator__item">2</li>
                 <li class="paginator__item">3</li>
                 <li class="paginator__item">4</li>
@@ -127,13 +168,19 @@
             </div>
           </div>
         </section>
-        <section class="section about-us-section">
-            <div class="about-us-container">
-                <h2 class="section__title">О нас</h2>
-                <p class="section__text"> С другой стороны реализация намеченных плановых заданий требуют от нас анализа существенных финансовых и административных условий. Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации в значительной степени обуславливает создание дальнейших направлений развития. Таким образом постоянный количественный рост и сфера нашей активности представляет собой интересный эксперимент проверки новых предложений. Повседневная практика показывает, что начало повседневной работы по формированию позиции требуют определения и уточнения модели развития.</p>
-                <a href="#" class="btn active-btn">Подробнее</a>
+
+        <section class="about-us">
+            <div class="about-us__photo_wrap">
+                <img src="" alt="Это мы" class="about-us__photo">
             </div>
+            <div class="about-us__content">
+                <h2 class="section-title about-us__title">О нас</h2>
+                <p class="about-us__description"> С другой стороны реализация намеченных плановых заданий требуют от нас анализа существенных финансовых и административных условий. Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура организации в значительной степени обуславливает создание дальнейших направлений развития. Таким образом постоянный количественный рост и сфера нашей активности представляет собой интересный эксперимент проверки новых предложений. Повседневная практика показывает, что начало повседневной работы по формированию позиции требуют определения и уточнения модели развития.</p>
+                <a href="#" class="about-us__btn btn btn_active">Подробнее</a>
+            </div>
+        </section>
       </main>
+
       <footer class="footer">
         <a href="#" class="logo">
           <img src="" alt="" class="logo__pic" />
@@ -146,14 +193,14 @@
           </ul>
         </nav>
         <ul class="social-icons__list">
-            <li class="social-icons__item"><a href="" class="icon_link">Telegram</a></li>
-            <li class="social-icons__item"><a href="" class="icon_link">VK</a></li>
-            <li class="social-icons__item"><a href="" class="icon_link">Facebook</a></li>
-            <li class="social-icons__item"><a href="" class="icon_link">Instagram</a></li>
+            <li class="social-icons__item"><a href="" class="social-icon">Telegram</a></li>
+            <li class="social-icons__item"><a href="" class="social-icon">VK</a></li>
+            <li class="social-icons__item"><a href="" class="social-icon">Facebook</a></li>
+            <li class="social-icons__item"><a href="" class="social-icon">Instagram</a></li>
         </ul>
         <address class="contacts">
           <a href="tel:+88007003030" class="contacts__link">Бесплатный звонок по России</a>  
-          <a href="tel:+88007003030" class="contacts_phone">8 800 700 30 30</a>
+          <a href="tel:+88007003030" class="contacts__phone">8 800 700 30 30</a>
         </address>
       </footer>
     </div>
