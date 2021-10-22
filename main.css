@@ -36,11 +36,13 @@ h6 {
 }
 
 .main-page-wrapper {
-  background: url("img/background1.png") center top no-repeat,
-    url("img/background2.png") right bottom 160px no-repeat;
+  background: linear-gradient(black, black),
+    url("img/background1.png") center top no-repeat,
+    url("img/background2.png") center bottom 148px no-repeat;
+  background-blend-mode: saturation;
   /* filter: grayscale(); */
-  /* mix-blend-mode: luminosity;
-  box-shadow: inset 0px -46px 50px #17191c; */
+  /* mix-blend-mode: luminosity; */
+  /* box-shadow: inset 0px -46px 50px #17191c; */
 }
 .container {
   margin: 0 auto;
