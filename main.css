@@ -38,7 +38,7 @@ h6 {
 .main-page-wrapper {
   background: url("img/background1.png") center top no-repeat,
     url("img/background2.png") right bottom 160px no-repeat;
-
+  /* filter: grayscale(); */
   /* mix-blend-mode: luminosity;
   box-shadow: inset 0px -46px 50px #17191c; */
 }
@@ -160,18 +160,28 @@ h6 {
   min-height: 450px;
   background-color: #ffffff;
   color: #000000;
-  border-radius: 4px;
+  border-radius: 5px;
   display: inline-block;
   width: 362px;
   margin-right: 22px;
 }
+
 .quizes__item:last-child {
   margin-right: 0;
 }
 
 .quiz__header {
-  min-height: 145px;
+  height: 145px;
   margin-bottom: 26px;
+  overflow: hidden;
+  background-color: #150a18;
+  border-radius: 4px 4px 0 0;
+}
+
+.quiz__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .quiz__content {
