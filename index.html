@@ -3,14 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=1200, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="main.css" />
     <title>Quiz Box (эвент-агентство)</title>
   </head>
   <body>
     <div class="wrapper main-page-wrapper">
       <section class="welcome">
-        <div class="container">
+        <div class="container welcome__container">
           <header class="header">
             <a href="#" class="logo">
               <img
@@ -25,7 +32,7 @@
                   <a href="#" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Игры</a>
+                  <a href="services.html" class="menu__link">Игры</a>
                 </li>
                 <li class="menu__item">
                   <a href="#" class="menu__link">Отзывы</a>
@@ -95,8 +102,10 @@
                     </li>
                   </ul>
                   <div class="quiz__desc">
-                    Равным образом постоянное обеспечение нашей деятельности
-                    позволяет оценить значение систем массового участия.
+                    <p>
+                      Равным образом постоянное обеспечение нашей деятельности
+                      позволяет оценить значение систем массового участия.
+                    </p>
                   </div>
                   <a href="#" class="quiz__btn btn">Смотреть</a>
                 </div>
@@ -130,8 +139,10 @@
                     </li>
                   </ul>
                   <div class="quiz__desc">
-                    Равным образом постоянное обеспечение нашей деятельности
-                    позволяет оценить значение систем массового участия.
+                    <p>
+                      Равным образом постоянное обеспечение нашей деятельности
+                      позволяет оценить значение систем массового участия.
+                    </p>
                   </div>
                   <a href="#" class="quiz__btn btn btn_active">Смотреть</a>
                 </div>
@@ -161,8 +172,10 @@
                     </li>
                   </ul>
                   <div class="quiz__desc">
-                    Равным образом постоянное обеспечение нашей деятельности
-                    позволяет оценить значение систем массового участия.
+                    <p>
+                      Равным образом постоянное обеспечение нашей деятельности
+                      позволяет оценить значение систем массового участия.
+                    </p>
                   </div>
                   <a href="#" class="quiz__btn btn">Смотреть</a>
                 </div>
@@ -178,33 +191,33 @@
             </div>
 
             <ul class="past-games__list">
-              <li class="past-games__item past-game">
+              <li class="past-games__item game">
                 <img
                   src="img/new-year-game.jpg"
                   alt="Фото Новогоднее"
-                  class="past-game__photo"
+                  class="game__photo"
                 />
 
-                <div class="past-game__content">
-                  <time class="past-game__date">1 января</time>
-                  <div class="past-game__title">Новогодний квиз</div>
-                  <div class="past-game__description">
+                <div class="game__content">
+                  <time class="game__date">1 января</time>
+                  <div class="game__title">Новогодний квиз</div>
+                  <div class="game__description">
                     Успевайте забронировать даты. Пока еще есть места на
                     декабрь. Удачи и всех благ!
                   </div>
                 </div>
               </li>
-              <li class="past-games__item past-game">
+              <li class="past-games__item game">
                 <img
                   src="img/spring-game.jpg"
                   alt="Фото 8 Марта"
-                  class="past-game__photo"
+                  class="game__photo"
                 />
 
-                <div class="past-game__content">
-                  <time class="past-game__date">8 марта</time>
-                  <div class="past-game__title">Весенняя игра</div>
-                  <div class="past-game__description">
+                <div class="game__content">
+                  <time class="game__date">8 марта</time>
+                  <div class="game__title">Весенняя игра</div>
+                  <div class="game__description">
                     Успевайте забронировать даты. Пока еще есть места на март.
                     Удачи и всех благ!
                   </div>
@@ -290,7 +303,7 @@
                   <a href="#" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Игры</a>
+                  <a href="services.html" class="menu__link">Игры</a>
                 </li>
                 <li class="menu__item">
                   <a href="#" class="menu__link">Отзывы</a>
